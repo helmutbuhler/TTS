@@ -30,7 +30,7 @@ coqpit                                          # config managemenr
 jieba
 pypinyin
 # japanese g2p deps
-mecab-python3==1.0.3
+#mecab-python3==1.0.3
 unidic-lite==1.0.8
 # gruut+supported langs
 gruut[cs,de,es,fr,it,nl,pt,ru,sv]~=2.0.0
