@@ -11,6 +11,8 @@ from pathlib import Path
 from TTS.utils.manage import ModelManager
 from TTS.utils.synthesizer import Synthesizer
 
+import torch
+torch.set_num_threads(1)
 
 def str2bool(v):
     if isinstance(v, bool):
